@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color-scheme: dark;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  opacity: none;
+  background: transparent;
+  cursor: pointer;
+  @media (max-width: 00px) {
+    cursor: default;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
